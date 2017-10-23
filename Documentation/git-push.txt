@@ -161,6 +161,9 @@ already exists on the remote side.
 	Transmit the given string to the server, which passes them to
 	the pre-receive as well as the post-receive hook. The given string
 	must not contain a NUL or LF character.
+	When no `--push-option <option>` is given from the command
+	line, the values of configuration variable `push.pushOption`
+	are used instead.
 
 --receive-pack=<git-receive-pack>::
 --exec=<git-receive-pack>::
